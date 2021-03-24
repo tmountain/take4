@@ -7,7 +7,7 @@ This is achieved by utilizing a Monte Carlo Tree Search (MCTS), which is a trivi
 to implement. That said, the MCTS can provide competitive human like play behavior when run
 at a sufficient depth.
 
-The numSimulations constant at the top of the code dictates how many games to simulate before
+The `numSimulations` constant at the top of the code dictates how many games to simulate before
 making a move. Setting this to 1,000 seems to provide a nice performance to accuracy tradeoff,
 but it can be fun to play around with different values.
 
